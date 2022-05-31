@@ -1,16 +1,17 @@
 .container{
     border:1px solid black;
-    
     display:inline-block;
+
 }
 .line {
-display: inline-block
+display: flex;
+
 }
 
 .cell{
     height:20px;
     width:20px;
-    
+  
 }
 .cell.activated{
     background-color: black;
