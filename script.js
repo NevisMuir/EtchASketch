@@ -17,7 +17,7 @@ function createGrid(n){
 createGrid(32);
 const newGridButton = document.querySelector('#sizeSelector')
 newGridButton.addEventListener('click', () =>{
-  let length = prompt ("Please enter a length between 4 and 100")
+  let length = prompt ("How many squares per side? Must be between 4 and 100")
   if (length>100 || length<4 || isNaN(length)){
     alert("Error! Please enter a number between 4 and 100")
   }
