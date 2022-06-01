@@ -1,9 +1,11 @@
 .container{
     border:1px solid black;
     display:flex;
-    height:960px;
-    width:960px;
+    height:600px;
+    width:600px;
     flex-direction: column;
+    margin: 0 auto;
+    border: 15px solid rgba(165, 4, 4, 0.612)
 }
 .line {
 display: flex;
@@ -11,6 +13,7 @@ flex-grow:1;
 }
 .cell{
     flex-grow:1;
+    background-color: rgba(220, 220, 220, 0.882);
 }
 .cell.activated{
     background-color: black;
